@@ -1,0 +1,17 @@
+{
+    "shopid": "ID Магазина",
+    "key1": "Секретный ключ №1",
+    "key2": "Секретный ключ №2",
+    "shophookurl": "URL Оповещения: https://ВАШ_ДОМЕН/store/listener/?gateway=MORUNE",
+    "moruneapiurl": "API URL: <br>Стандартный: https://api.morune.com/invoice/create",
+    "enablegateway": "Включить способ оплаты",
+    "gatewayname": " Платежная система <a href=\"https://app.morune.com/registration\" target=\"_blank\">MORUNE</a>",
+    "bankcard": "<b>Банковские карты</b>: <b>Карты РФ</b>",
+    "onlinewal": "<b>Электронные кошельки</b>: <b>Perfect Money</b>",
+    "crypto": "<b>Криптовалюты</b>: <b>Bitcoin</b>, <b>Ethereum</b>, <b>USDT TRC20</b>, <b>USDT ERC20</b>, <b>Litecoin</b>, <b>TRX</b> и <b>DASH</b>",
+    "gatewaylink": "Для регистрации в MORUNE используйте <a href=\"https://app.morune.com/registration\" target=\"_blank\">эту ссылку</a>.",
+    "gatewaytest": "Модуль прошел тесты и работает на версиях магазина 1.7.1 и ниже.",
+    "alerturl": "<b>URL Оповещения:</b> https://ВАШ_ДОМЕН/store/listener/?gateway=MORUNE",
+    "sucurl": "<b>URL успешной оплаты:</b> https://ВАШ_ДОМЕН/store/checkout/?do=complete",
+    "failurl": "<b>URL неудачной оплаты:</b> На ваш выбор :)"
+}
