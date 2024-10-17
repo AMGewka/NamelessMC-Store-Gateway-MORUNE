@@ -49,12 +49,16 @@ $smarty->assign([
     'ENABLE_GATEWAY' => $morune_language->get('enablegateway'),
     'GATEWAY_NAME' => $morune_language->get('gatewayname'),
     'BANK_CARD' => $morune_language->get('bankcard'),
+    'ONLINE_PAYMENTS' => $morune_language->get('onlinepay'),
     'ONLINE_WALLET' => $morune_language->get('onlinewal'),
     'CRYPTOCURRENCIES' => $morune_language->get('crypto'),
     'GATEWAY_LINK' => $morune_language->get('gatewaylink'),
-    'GATEWAY_TESTED' => $morune_language->get('gatewaytest'),
     'ALERT_URL' => $morune_language->get('alerturl'),
     'SUCCESS_URL' => $morune_language->get('sucurl'),
     'FAILED_URL' => $morune_language->get('failurl'),
-    'MORUNE_URL' => $morune_language->get('moruneapiurl')
+    'MORUNE_URL' => $morune_language->get('moruneapiurl'),
+    'PINGBACK_URL' => rtrim(URL::getSelfURL(), '/') . URL::build('/store/listener', 'gateway=MORUNE'),
+    'SUCC_URL' => rtrim(URL::getSelfURL(), '/') . URL::build('/store/checkout', 'do=complete'),
+    'WARINFO' => $morune_language->get('warinfo'),
+    'INFO' => $morune_language->get('info')
 ]);

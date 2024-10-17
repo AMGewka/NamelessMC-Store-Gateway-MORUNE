@@ -2,17 +2,23 @@
     <div class="card shadow border-left-primary">
         <div class="card-body">
             <h5><i class="icon fa fa-info-circle"></i>{$GATEWAY_NAME}</h5></br>
-            - {$BANK_CARD}</br>
-            - {$ONLINE_WALLET}</br>
-            - {$CRYPTOCURRENCIES}</br></br>
-            - {$GATEWAY_LINK}</br>
-            - {$GATEWAY_TESTED}</br>
-            - {$ALERT_URL}</br>
-            - {$SUCCESS_URL}</br>
-            - {$FAILED_URL}
+            {$BANK_CARD}</br>
+            {$ONLINE_PAYMENTS}</br>
+            {$ONLINE_WALLET}</br>
+            {$CRYPTOCURRENCIES}</br></br>
+            {$GATEWAY_LINK}</br>
+            {$ALERT_URL} <code>{$PINGBACK_URL}</code></br>
+            {$SUCCESS_URL} <code>{$SUCC_URL}</code></br>
+            {$FAILED_URL}
         </div>
     </div>
-
+    <br />
+    <div class="card shadow border-left-warning">
+        <div class="card-body">
+            <h5><i class="icon fa fa-info-circle"></i>{$WARINFO}</h5>
+            {$INFO}
+        </div>
+    </div>
     <br />
 
 
@@ -32,8 +38,8 @@
 <input class="form-control" type="text" id="inputMORUNEhook" name="morune_callb" value="{$MORUNE_CALLB}" placeholder="{$SHOP_URL_HOOK}">
 </div>
 
-<div class="form-group"><label for="inputMORUNEurlapi">{$ENOT_URL}</label>
-<input class="form-control" type="text" id="inputMORUNEurlapi" name="morune_apiurl" value="{$MORUNE_URLAPI}" placeholder="{$MORUNE_URL}">
+<div class="form-group"><label for="inputMORUNEurlapi">{$MORUNE_URL}</label>
+<input class="form-control" type="text" id="inputMORUNEurlapi" name="MORUNE_apiurl" value="{$MORUNE_URLAPI}" placeholder="{$MORUNE_URL}">
 </div>
 
 <div class="form-group custom-control custom-switch">
