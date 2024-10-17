@@ -39,7 +39,7 @@
 </div>
 
 <div class="form-group"><label for="inputMORUNEurlapi">{$MORUNE_URL}</label>
-<input class="form-control" type="text" id="inputMORUNEurlapi" name="MORUNE_apiurl" value="{$MORUNE_URLAPI}" placeholder="{$MORUNE_URL}">
+<input class="form-control" type="text" id="inputMORUNEurlapi" name="morune_apiurl" value="{$MORUNE_URLAPI}" placeholder="{$MORUNE_URL}">
 </div>
 
 <div class="form-group custom-control custom-switch">
