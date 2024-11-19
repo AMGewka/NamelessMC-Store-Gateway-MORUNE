@@ -18,8 +18,8 @@
     "alerturl": "<b>webhook URL:</b>",
     "sucurl": "<b>Successful payment URL:</b>",
     "acc_curr": "<b>Supported currencies:</b> <code>RUB</code>, <code>USD</code>, <code>EUR</code> and <code>UAH</code>",
-    "warinfo1": "Checkout setup data",
-    "warinfo2": "Checkout and Store module configuration",
-    "warinfo3": "API & Webhook configuration",
-    "info": "If you have any problems with your site moderation, please contact your <a href=\"https://denisenot.t.me\" target=\"_blank\">manager</a> to resolve the issues."
+    "warinfo1": " Data for setting up the checkout and Store module",
+    "warinfo2": " Checkout configuration",
+    "warinfo3": " API & Webhook configuration",
+    "info": " If you have any problems passing moderation of your site, please contact the <a href=\"https://denisenot.t.me\" target=\"_blank\">manager</a> to resolve the issues."
 }

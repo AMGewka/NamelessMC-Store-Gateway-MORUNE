@@ -18,8 +18,8 @@
     "alerturl": "<b>URL webhook:</b>",
     "sucurl": "<b>URL успешной оплаты:</b>",
     "acc_curr": "<b>Поддерживаемые валюты:</b> <code>RUB</code>, <code>USD</code>, <code>EUR</code> и <code>UAH</code>",
-    "warinfo1": " Данные для настройки кассы",
-    "warinfo2": " Конфигурация кассы и модуля Store",
+    "warinfo1": " Данные для настройки кассы и модуля Store",
+    "warinfo2": " Конфигурация кассы",
     "warinfo3": " Конфигурация API & Webhook",
     "info": "Если у вас возникли проблемы с прохождением модерации вашего сайта, пожалуйста, свяжитесь с <a href=\"https://denisenot.t.me\" target=\"_blank\">менеджером</a> для решения проблем."
 }
