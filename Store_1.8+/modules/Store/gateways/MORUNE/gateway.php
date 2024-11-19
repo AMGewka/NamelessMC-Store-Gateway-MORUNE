@@ -4,7 +4,7 @@
  *
  * @package Modules\Store
  * @author AMGewka
- * @version 1.8.0
+ * @version 1.8.1
  * @license MIT
  */
 class MORUNE_Gateway extends GatewayBase {
@@ -12,7 +12,7 @@ class MORUNE_Gateway extends GatewayBase {
     public function __construct() {
         $name = 'MORUNE';
         $author = '<a href="https://github.com/AMGewka" target="_blank" rel="nofollow noopener">AMGewka</a>';
-        $gateway_version = '1.8.0';
+        $gateway_version = '1.8.1';
         $store_version = '1.7.1';
         $settings = ROOT_PATH . '/modules/Store/gateways/MORUNE/gateway_settings/settings.php';
 
@@ -26,6 +26,7 @@ class MORUNE_Gateway extends GatewayBase {
         $apiKey = StoreConfig::get('MORUNE.secret1_key');
         $callba = StoreConfig::get('MORUNE.morune_callb');
         $apiurl = StoreConfig::get('MORUNE.morune_apiurl');
+        $success_url = rtrim(URL::getSelfURL(), '/') . URL::build('/store/checkout', 'do=complete');
         
         if ($shopId == null || empty($shopId)) {
             $this->addError('The administration has not completed the configuration of this gateway!');
@@ -35,6 +36,7 @@ class MORUNE_Gateway extends GatewayBase {
         $payment_id = $order->data()->id;
         $order_amount = $order->getAmount()->getTotalCents() / 100;
         $currency = $order->getAmount()->getCurrency();
+        $desc = 'Buying products: ' . $order->getDescription() . ' on ' . $order->customer()->getUser()->data()->username . ' account';
 
         $data = [
             "amount" => $order_amount,
@@ -42,6 +44,8 @@ class MORUNE_Gateway extends GatewayBase {
             "currency" => $currency,
             "shop_id" => $shopId,
             "hook_url" => $callba,
+            "comment" => $desc,
+            "success_url" => $success_url,
         ];
 
         $url = $apiurl;
