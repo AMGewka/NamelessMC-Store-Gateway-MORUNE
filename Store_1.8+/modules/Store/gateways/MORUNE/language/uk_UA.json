@@ -11,7 +11,7 @@
     "enablegateway": "Включити спосіб оплати",
     "gatewayname": " Платіжна система <a href=\"https://app.morune.com/registration\" target=\"_blank\">MORUNE</a>",
     "bankcard": "<b>Банківські карти</b>: <b>Карти Росії</b>",
-    "onlinepay": "<b>Електронні платежі</b>: <b>СБП QR</b> і b>СБП P2P</b>",
+    "onlinepay": "<b>Електронні платежі</b>: <b>СБП QR</b> і <b>СБП P2P</b>",
     "onlinewal": "<b>Електронні гаманці</b>: <b>Perfect Money</b>",
     "crypto": "<b>Криптовалюти</b>: <b>Bitcoin</b>, <b>Ethereum</b>, <b>USDT TRC20</b>, <b>USDT ERC20</b >, <b>Litecoin</b>, <b>TRX</b> та <b>DASH</b>",
     "gatewaylink": "Для реєстрації в MORUNE використовуйте <a href=\"https://app.morune.com/registration\" target=\"_blank\">це посилання</a>.",

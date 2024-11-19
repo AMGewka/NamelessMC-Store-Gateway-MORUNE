@@ -11,7 +11,7 @@
     "enablegateway": "Enable payment method",
     "gatewayname": " Payment system <a href=\"https://app.morune.com/registration\" target=\"_blank\">MORUNE</a>",
     "bankcard": "<b>Bank cards</b>: <b>Maps of Russia</b>",
-    "onlinepay": "<b>Electronic payments</b>: <b>SBP QR</b> and b>SBP P2P</b>",
+    "onlinepay": "<b>Electronic payments</b>: <b>SBP QR</b> and <b>SBP P2P</b>",
     "onlinewal": "<b>Electronic wallets</b>: <b>Perfect Money</b>",
     "crypto": "<b>Cryptocurrencies</b>: <b>Bitcoin</b>, <b>Ethereum</b>, <b>USDT TRC20</b>, <b>USDT ERC20</b>, <b>Litecoin</b>, <b>TRX</b> and <b>DASH</b>",
     "gatewaylink": "To register in MORUNE, use <a href=\"https://app.morune.com/registration\" target=\"_blank\">this link</a>.",
